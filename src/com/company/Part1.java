@@ -1,9 +1,9 @@
 package com.company;
 
-public class Main {
+public class Part1 {
     public static void main(String[] args) {
         final String USAGE = "1 param. - Integer";
-        int number = 0;
+        int number;
         if (args.length != 1){
             System.out.println(USAGE);
             return;
